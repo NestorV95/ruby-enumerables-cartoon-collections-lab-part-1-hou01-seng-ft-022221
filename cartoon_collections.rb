@@ -1,8 +1,6 @@
 def greet_characters(array)
-  total = 0 
   array.each do |name|
     puts "Hello #{name}!"
-    total += 1 
   end
 end
 
